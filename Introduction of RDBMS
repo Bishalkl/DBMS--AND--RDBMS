@@ -1,0 +1,35 @@
+A Relational Database Management System (RDBMS) is a type of database management system that is based on the principles of the relational model, which was introduced by Edgar F. Codd in the 1970s. RDBMS systems are widely used for storing, managing, and manipulating structured data. Here are key features and concepts related to RDBMS:
+
+1. Tables: In an RDBMS, data is organized into tables, also known as relations. Each table consists of rows (tuples) and columns (attributes). Tables represent entities or concepts, and each row represents an instance of that entity, while each column represents an attribute or property of the entity.
+
+2. Keys:
+
+Primary Key: A primary key uniquely identifies each row in a table. It ensures that there are no duplicate rows in the table.
+Foreign Key: A foreign key establishes relationships between tables. It is a column in one table that refers to the primary key of another table, creating a link between them.
+3. Data Integrity:
+
+Constraints: RDBMS systems enforce data integrity constraints, including primary key constraints, unique constraints, check constraints, and foreign key constraints. These constraints help maintain data accuracy and consistency.
+ACID Properties: RDBMS systems are known for their support of ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure data reliability and transaction management.
+4. SQL (Structured Query Language): SQL is the standard language used for interacting with RDBMS. It provides a set of commands for performing operations on the database, including querying data (SELECT), inserting data (INSERT), updating data (UPDATE), and deleting data (DELETE). SQL also includes data definition language (DDL) commands for creating, modifying, and deleting database structures.
+
+5. Normalization: Normalization is the process of organizing data in a way that minimizes data redundancy and reduces the potential for data anomalies. RDBMS systems encourage the practice of normalization to improve data integrity.
+
+6. Indexing: RDBMS systems use indexes to optimize data retrieval. An index is a data structure that allows for quick lookup of rows based on the values in one or more columns. Indexes improve query performance but can increase write overhead.
+
+7. Joins: RDBMS systems support various types of joins, including INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN, to combine data from multiple tables based on specified criteria.
+
+8. Transaction Management: RDBMS systems ensure data consistency in multi-user environments through transaction management. Transactions are sequences of SQL operations that are executed as a single unit. Transactions can be committed (applied to the database) or rolled back (undone) to maintain data integrity.
+
+Popular RDBMS Products:
+
+MySQL: An open-source RDBMS widely used for web applications.
+PostgreSQL: An open-source RDBMS known for its advanced features and extensibility.
+Oracle Database: A commercial RDBMS known for its scalability and robustness.
+Microsoft SQL Server: A commercial RDBMS designed for Windows environments.
+SQLite: A lightweight, serverless RDBMS often used in embedded systems and mobile applications.
+RDBMS systems are used in various applications, including business databases, web applications, data warehousing, and more, due to their ability to efficiently manage structured data and enforce data integrity constraints.
+
+
+
+
+
